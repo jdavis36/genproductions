@@ -24,5 +24,6 @@ with open("JHUGen_Template.input") as f:
 dct = {}
 
 for dct["COUPLING_STRING"], dct["Q2_CUT"], dct["Hypothesis"]in parameters:
+  print(dct)
   with open("JHUGen_{}.input".format(dct["Hypothesis"]), "w") as f:
     f.write(template.format(**dct))

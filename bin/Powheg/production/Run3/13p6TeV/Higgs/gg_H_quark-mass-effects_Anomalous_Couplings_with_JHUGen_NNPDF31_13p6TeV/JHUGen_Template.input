@@ -1,1 +1,1 @@
-{COUPLING_STRING} {Q2_CUT} DecayMode1=8 DecayMode2=8 WriteFailedEvents=2 
+{COUPLING_STRING} {Q2_CUT} ColliderEnergy=13.6 DecayMode1=8 DecayMode2=8 WriteFailedEvents=2 
